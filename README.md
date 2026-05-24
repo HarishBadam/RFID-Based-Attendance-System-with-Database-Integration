@@ -36,9 +36,9 @@ The system reads RFID card data through UART communication and sends the data to
 7. Attendance information is displayed.
 
 ## Files Description
-- `Rfid_Reader.c` : RFID data reading logic
-- `linked_list.c` : Attendance data storage
-- `uart.c` : UART communication functions
+- `main.c` : RFID data reading logic
+- `user_database_manager.c` : Attendance data storage
+- `termios_uart_driver.c` : UART communication functions
 
 ## Future Improvements
 - Database integration
